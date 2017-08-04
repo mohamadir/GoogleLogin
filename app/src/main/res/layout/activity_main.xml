@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fea600"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hosen.googlelogin.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_weight="0.14"
+        android:text="SnapGroup Login Test" />
+
+    <LinearLayout
+        android:id="@+id/prof_section"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.06"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/prof_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.43"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameTv"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:text="Name Display Here"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/emailTv"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:text="Email display here" />
+
+            <Button
+                android:id="@+id/logoutBt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="#0056e6"
+                android:textColor="#fff"
+                android:text="Sign Out" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.gms.common.SignInButton
+    android:layout_width="281dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp"
+    android:layout_marginRight="50dp"
+    android:layout_marginLeft="50dp"
+    android:id="@+id/btLogin"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="281dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/facebook_logo"
+        android:layout_weight="0.00" />
+</LinearLayout>

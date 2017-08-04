@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "308223998040",
+    "project_id": "cryptic-skyline-173414"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308223998040:android:da87b30487daa227",
+        "android_client_info": {
+          "package_name": "com.example.hosen.googlelogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308223998040-i3bods38bah9vk39tnr6li6pu5l2lb8l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hosen.googlelogin",
+            "certificate_hash": "4f251f133594380e4e089ee819f7361c4a1cf123"
+          }
+        },
+        {
+          "client_id": "308223998040-f20r99lovmfcs3oa8gi13sv7dvdl8eme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiOPutoZKPCdtFv73aSZwsE5jnmUVAz4Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
